@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+   <!-- Linking Bootstrap  -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <!-- Linking CSS -->
+   
+     <link rel="stylesheet" type="text/css" href="assets\css\nats.css">
+</head>
+
+<body>
+
+ <div class="container">
+    <img class="center-block" src="assets/images/Nats.gif"><br\>
+    <h1 class="center-block">N-A-T-S Player Search</h1>
+
+    <!-- Rendered Buttons will get Dumped Here  -->
+    <div id="buttons-view"></div>
+
+    <!-- Input form for adding new player  -->
+    <form id="player-form">
+    <!-- Button triggers new player to be added -->
+       <input id="add-player" class="button btn-lg center-block" type="submit" value="Add your favorite Nats Player"><br\>
+       <input type="center-block" id="player-input"><br>
+    </form>
+
+    <!-- Players will Get Dumped Dere -->
+    <div id="player-view" class="flex-container wrap" ></div>
+
+    <!-- JQuery and Java script -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/natsJscript.js"></script>
+  </div>
+</body>
+</html>
