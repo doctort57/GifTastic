@@ -8,6 +8,11 @@
   	font-family:  Albertus;
   }
 
+  .text{
+      height:30px;
+      width:240px;
+  }
+
   .button
   	{
   	background-color: #BA122B;
@@ -25,7 +30,7 @@
     width: 125%;
   },
  
-  form,
+ 
   input {
     margin: 10px;
   }

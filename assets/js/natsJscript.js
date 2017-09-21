@@ -41,6 +41,7 @@ $(document).ready(function() {
           // Putting the player img  above the previous player
               $("#player-view").prepend(naTsDiv);
              }
+             setFocus();
           });
       }
 
@@ -58,7 +59,12 @@ $(document).ready(function() {
                 $(this).attr("src", $(this).attr("data-still"));
                 $(this).attr("data-state", "still");
               }
+              setFocus();
       };
+
+      function setFocus() {
+               $("#player-input").val("").focus();
+      }
 
       // Function for displaying player data
       function renderButtons() {
@@ -81,6 +87,7 @@ $(document).ready(function() {
         // Adding the button to the buttons-view div
                 $("#buttons-view").append(a);
               }
+              setFocus();
       }
 
       // This function handles events where a player button is clicked
@@ -90,11 +97,9 @@ $(document).ready(function() {
               var player = $("#player-input").val().trim();
        // Adding player from the textbox to our array
               players.push(player);
-       // Reset input field      
-              $("#player-input").val("");
        // Calling renderButtons which handles the processing of our player array
               renderButtons();
-      });
+       });
 
      $(document).on("click", '.button', function(event){
         displayPlayerInfo(event)
@@ -104,5 +109,5 @@ $(document).ready(function() {
       $(document).on("click", ".playerImg", animateGIF);
       $(document).on("click", ".player", displayPlayerInfo);
       // Calling the renderButtons function to display the intial buttons
-      renderButtons();
+      renderButtons();  
 });
