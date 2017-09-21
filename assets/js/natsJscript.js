@@ -1,10 +1,10 @@
 $(document).ready(function() {
   // Initial array of players
       var players = ["Bryce Harper", "Daniel Murphy", "Jayson Werth", "Max Scherzer","Gio Gonzalez","Anthony Rendon"];
+      var player = "";
       // displayPlayerInfo function re-renders the HTML to display the appropriate content
 
       function displayPlayerInfo() {
-        var player = $(this).attr("data-name");
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + player + "&apikey=dc6zaTOxFJmzC&limit=10";
         // Creating an AJAX call for the specific player button being clicked
         $.ajax({
@@ -80,6 +80,7 @@ $(document).ready(function() {
                 $(a).addClass("player");
                 $(a).addClass("button");
                 $(a).addClass("btn-lg");
+                 $(a).attr("data-name", $("#player-input").val().trim());
         // Adding a data-attribute
                 $(a).attr("data-name", players[i]);
         // Providing the initial button text
@@ -94,14 +95,16 @@ $(document).ready(function() {
       $("#add-player").on("click", function(event) {
               event.preventDefault();
       // This line grabs the input from the textbox
-              var player = $("#player-input").val().trim();
-       // Adding player from the textbox to our array
-              players.push(player);
+               player = $("#player-input").val().trim();
+               $(this).attr("data-name", $("#player-input").val().trim());
+        // Adding player from the textbox to our array
+               players.push(player);
        // Calling renderButtons which handles the processing of our player array
               renderButtons();
        });
 
-     $(document).on("click", '.button', function(event){
+      $(document).on("click", '.button', function(event){
+        player = $(this).attr("data-name");
         displayPlayerInfo(event)
       })
 

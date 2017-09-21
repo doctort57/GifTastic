@@ -1,6 +1,7 @@
  body {
   	background-image: url(../images/NatsPark.jpg); 
   }
+
   h1 {
   	color: white;
   	text-align: center;
@@ -19,7 +20,8 @@
   	color: #FFFFFF;
   	text-align: center;
   	font-size: 16px;
-  }		 
+  }	
+
   .p{
     color: white;
     background-color: #BA122B;
@@ -28,13 +30,8 @@
     font-size: 18px;
     text-align: center;
     width: 125%;
-  },
+  } 
  
- 
-  input {
-    margin: 10px;
-  }
-  
   .wrap    { 
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -45,7 +42,6 @@
   margin: 0;
   display: flex;
 }
-
 
 .flex-item {
   width: 25%;
