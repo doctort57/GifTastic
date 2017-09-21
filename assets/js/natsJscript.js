@@ -5,6 +5,7 @@ $(document).ready(function() {
       // displayPlayerInfo function re-renders the HTML to display the appropriate content
 
       function displayPlayerInfo() {
+        console.log(player);
         var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + player + "&apikey=dc6zaTOxFJmzC&limit=10";
         // Creating an AJAX call for the specific player button being clicked
         $.ajax({
