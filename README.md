@@ -2,21 +2,21 @@
 
 ## Overview
 
-Fun with images using GIPHY api, ajax, jquery
+Introduction to API calls
+
+Fun with Nationals player images using GIPHY api, ajax, jquery javascript and bootstrap framework
 
 Please check out the deployed version in Heroku [here](https://godfather.herokuapp.com/)!
 
 ## Functionality
-
-1. Note that Daniel Murphy is a common name so sometimes you get pictures of actors and such that are not baseball players. I will see if there is another parameter one can use to only get images from MLB.com using GiphyAPI.
-
-2. Introduction to API calls, also using Bootstrap framework and AJAX for API calls
 
 Add a new player using text box and generate on index.html page
 
 Click on player button to show images for that player
 
 Click on image to animate, Click on Image to stop animate
+
+Note that Daniel Murphy is a common name so sometimes you get pictures of actors and such that are not baseball players. I will see if there is another parameter one can use to only get images from MLB.com using GiphyAPI.
 
 ## Screen Shots
 
