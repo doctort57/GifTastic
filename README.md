@@ -16,7 +16,7 @@ Click on player button to show images for that player
 
 Click on image to animate, Click on Image to stop animate
 
-Note that Daniel Murphy is a common name so sometimes you get pictures of actors and such that are not baseball players. I will see if there is another parameter one can use to only get images from MLB.com using GiphyAPI.
+Note that Daniel Murphy and others are common names so sometimes you get pictures of actors and such that are not baseball players. I will see if there is another parameter one can use to only get images from MLB.com using GiphyAPI.
 
 ## Screen Shots
 
