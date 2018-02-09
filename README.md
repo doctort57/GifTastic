@@ -6,7 +6,7 @@ Introduction to API calls
 
 Fun with Nationals player images using GIPHY api, ajax, jquery javascript and bootstrap framework
 
-Please check out the deployed version in Heroku [here](https://godfather.herokuapp.com/)!
+Please check out the deployed version in Heroku [here](https://natsgiftastic.herokuapp.com/)!
 
 ## Functionality
 
