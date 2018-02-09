@@ -26,7 +26,7 @@ Note that Daniel Murphy is a common name so sometimes you get pictures of actors
 
 ![image](https://user-images.githubusercontent.com/26799439/35939629-b3fabdce-0c1a-11e8-8d2d-e48de417ff7d.png)
 
-![image](https://user-images.githubusercontent.com/26799439/35939653-c4b1669a-0c1a-11e8-91cc-5b4699407058.png)
+[Add Player](https://user-images.githubusercontent.com/26799439/35939653-c4b1669a-0c1a-11e8-91cc-5b4699407058.png)
 
-![image](https://user-images.githubusercontent.com/26799439/35939677-de4e3146-0c1a-11e8-95c1-b1a82661b331.png)
+[Results](https://user-images.githubusercontent.com/26799439/35939677-de4e3146-0c1a-11e8-95c1-b1a82661b331.png)
 
